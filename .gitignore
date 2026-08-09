@@ -9,6 +9,8 @@
 code/**/*.pdf
 code/**/*.docx
 code/**/*.html
+code/**/*.md
+code/**/*_files/
 
 # Python
 code/**/__pycache__/
@@ -34,3 +36,13 @@ code/**/.vscode/
 # OS
 code/**/.DS_Store
 code/**/Thumbs.db
+
+# Model checkpoints
+code/**/*.ckpt
+
+# Oversized data files
+code/case_study_06/all_train.csv
+code/final_case_study/final_project(5).csv
+
+# Raw datasets (downloaded, not authored)
+code/case_study_03/SpamAssassinMessages/
